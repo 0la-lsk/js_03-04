@@ -1,0 +1,49 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Verdana, Arial, sans-serif;
+	~background: #d5d5d5;
+}
+.test--block {
+	padding:10px 20px;
+	background: #fff;
+	width: 90%;
+	margin: 20px auto 0 auto;
+}
+.test--block>p {
+	text-align: center;
+	~font-size: 18px;
+	padding: 5px;
+}
+.test--block p {
+	padding: 10px;
+}
+.test--questions {
+	padding:10px 20px;
+	background: #FFF;
+	font-size: 16px;
+}
+label {
+	display: block;
+	font-size: 14px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+fieldset {
+	border: none;
+}
+input[type="checkbox"] {
+	width:15px;
+	height: 15px;
+	vertical-align: middle;
+}
+input.btn--submit {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin: 10px auto 0 auto;
+	cursor: pointer;
+	font-size: 16px;
+}
